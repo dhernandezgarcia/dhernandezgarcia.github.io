@@ -3,12 +3,11 @@
       display:grid;
    /* Step 2: setup rows amd columns */
       grid-template-columns: 300px 30px;
-      grid-template-rows: 3fr 1fr 5fr 4fr 1fr;
+      grid-template-rows: 3fr 1fr 5fr 1fr;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "mn mn mn mn mn mn mn mn"
-      "main main main main main main main sd"
-      "secondary secondary secondary secondary secondary secondary secondary fm"
+      "main main main main main main sd sd"
       "ft ft ft ft ft ft ft ft";
       gap: 10px;
   }
@@ -49,16 +48,4 @@
   }
   .content{
     grid-area:main;
-  }
-
-  .recent_posts{
-      grid-area:secondary;
-      display:flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-  }
-
-  .subscription{
-      grid-area:fm;
   }
