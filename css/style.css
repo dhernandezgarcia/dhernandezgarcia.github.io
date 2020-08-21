@@ -10,7 +10,7 @@
       "main main main main main main main sd"
       "secondary secondary secondary secondary secondary secondary secondary fm"
       "ft ft ft ft ft ft ft ft";
-      gap: 10px;
+      gap: 1px;
   }
   .box{
       border: 1px solid #5f5f5cc5;
@@ -20,10 +20,18 @@
       margin: 5px;
   }
 
+  .post-box{
+    border: 1px solid #5f5f5cc5;
+    border-radius: 5px;
+    background: #d79922;
+    padding: 5px;
+    margin: 5px;
+}
+
   .menu-box{
       border: 1px solid #5f5f5cc5;
       border-radius: 5px;
-      background: #f3f3e5;
+      background: #4056a1;
       padding: 5px;
       margin: 5px;
       width: 60px;
@@ -32,26 +40,32 @@
   }
 
   .header{
+    background: #4056a1;
     grid-area:hd;
   }
 
   .menu{
+      background: #c5cbe3;
       display:flex;
       flex-direction: row;
       justify-content: flex-start;
       grid-area: mn
   }
   .footer{
+    background: #c5cbe3;
     grid-area:ft;
   }
   .sidebar{
+    background: #efe2ba;
     grid-area:sd;
   }
   .content{
+    background: #efe2ba;
     grid-area:main;
   }
 
   .recent_posts{
+      background: #efe2ba;
       grid-area:secondary;
       display:flex;
       flex-direction: row;
@@ -60,5 +74,6 @@
   }
 
   .subscription{
+      background: #efe2ba;
       grid-area:fm;
   }
