@@ -77,3 +77,9 @@
       background: #efe2ba;
       grid-area:fm;
   }
+
+  input[type=submit] {
+    width: 10em;  
+    height: 2em;
+    border-radius: 5px;
+  }
