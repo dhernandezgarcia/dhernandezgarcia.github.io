@@ -32,7 +32,20 @@
                 <div class="post-box" id=two>Recent Post 2</div>
                 <div class="post-box" id=three>Recent Post 3</div>
             </div>
-            <div class="subscription box">Never Miss a Post!</div>
+            <div class="subscription box"><h2>Never Miss a Post!</h2>
+                <form>
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="fname" size="30" value="Please introduce yourself"><br><br>
+                    <label for="email">Your email address:</label><br>
+                    <input type="text" id="email" name="email" size="30" value="How can we reach you?"><br><br>
+                    <label for="consent">Consent:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Yes, I consent to being emailed</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">No, I do not want to be emailed</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
             <div class="footer box">Footer</div>
         </div>
     </body>
