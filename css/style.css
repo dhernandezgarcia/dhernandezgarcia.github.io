@@ -1,9 +1,7 @@
 .container{
-    /* Step 1: Set display to grid */
       display:grid;
-   /* Step 2: setup rows amd columns */
       grid-template-columns: 300px 30px;
-      grid-template-rows: 2fr 0.5fr 5fr 3recfr 0.5fr;
+      grid-template-rows: 200px 60px 2fr 1fr 60px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "mn mn mn mn mn mn mn mn"
@@ -49,8 +47,6 @@
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    line-height: 200px;
-    height: 200px;
   }
 
   .menu{
