@@ -3,7 +3,7 @@
       display:grid;
    /* Step 2: setup rows amd columns */
       grid-template-columns: 300px 30px;
-      grid-template-rows: 3fr 1fr 5fr 1fr;
+      grid-template-rows: 3fr 1fr 5fr 0.5fr;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "mn mn mn mn mn mn mn mn"
