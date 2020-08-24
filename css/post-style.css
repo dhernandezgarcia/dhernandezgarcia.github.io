@@ -18,6 +18,12 @@
     margin: 5px;
   }
 
+  .post-box{
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 1.25em;
+  }
+
   .menu-box{
     border-radius: 5px;
     background: #4056a1;
