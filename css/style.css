@@ -10,6 +10,12 @@
       "ft ft ft ft ft ft ft ft";
       gap: 1px;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
   .box{
       border-radius: 5px;
       background: #f3f3e5;
