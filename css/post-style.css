@@ -11,6 +11,11 @@
       gap: 1px;
   }
 
+  .menu a {
+    color: white;
+    text-decoration: none;
+  }
+
   .box{
     border-radius: 5px;
     background: #f3f3e5;
