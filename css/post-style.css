@@ -93,3 +93,10 @@
     transition: 0.3s;
     border-radius: 5px; 
   }
+
+  figcaption {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #4056a1;
+  }
