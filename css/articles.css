@@ -34,14 +34,13 @@
       font-weight: bold;
   }
 
-  .post-box{
+  .article-box{
     border-radius: 5px;
     background: #d79922;
-    padding: 5px;
     margin: 5px;
     width: 100%;
     text-align: center;
-    font-weight: bold;
+    font-size: 1.25em;
 }
 
   .header{
@@ -99,6 +98,7 @@
 
   img {
     display: block;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px 5px 0 0;
@@ -108,4 +108,10 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; 
+  }
+
+  .p_article {
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: justify;
   }
