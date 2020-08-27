@@ -81,10 +81,8 @@
     width: 400px;
   }
 
-  img {
+  .large_img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 5px 5px 0 0;
   }
 
@@ -100,3 +98,39 @@
     text-align: center;
     color: #4056a1;
   }
+
+  .medium_img {
+    display: block;
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .center_img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center_text {
+    text-align: center;
+  }
+
+  .bio {
+    width: 50%;
+    font-size: 0.9em;
+    color: #505052;
+  }
+
+  .writtenby {
+    font-size: 0.9em;
+    color: #505052;
+  }
+
+  .subtitle {
+    font-size: 1.1em;
+    color: #505052;
+  }
+
