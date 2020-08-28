@@ -1,0 +1,78 @@
+.box {
+    border-radius: 5px;
+    background: #f3f3e5;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menu-box{
+    border-radius: 5px;
+    background: #4056a1;
+    padding: 5px;
+    margin: 5px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.left_text {
+    text-align: left;
+}
+
+.large_img {
+    width: 400px;
+    border-radius: 5px 5px 0 0;
+}
+
+.medium_img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.post_img {
+    width: 200px;
+    height: 150px;
+  }
+
+.center_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #4056a1;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+}
+
+.submit_button {
+    border-radius: 5px;
+    background: #4056a1;
+    padding: 5px;
+    margin: 5px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
