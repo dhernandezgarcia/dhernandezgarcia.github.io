@@ -1,0 +1,94 @@
+@import 'common.css';
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 30px;
+  grid-template-rows: 200px 60px 2fr 1fr 60px;
+  grid-template-areas: 
+  "hd hd hd hd hd hd hd hd"
+  "mn mn mn mn mn mn mn mn"
+  "main main main main main main main sd"
+  "secondary secondary secondary secondary secondary secondary secondary fm"
+  "ft ft ft ft ft ft ft ft";
+  gap: 1px;
+}
+
+.post-box {
+  border-radius: 5px;
+  background: #d79922;
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header {
+  grid-area: hd;
+  background: #4056a1;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu {
+  grid-area: mn;
+  background: #c5cbe3;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.content {
+  grid-area: main;
+  background: #efe2ba;
+}
+
+.sidebar {
+  grid-area: sd;
+  background: #c5cbe3;
+}
+
+.footer {
+  grid-area:ft;
+  background: #c5cbe3;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.recent_posts {
+  grid-area: secondary;
+  background: #efe2ba;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.subscription {
+  grid-area: fm;
+  background: #c5cbe3;
+}
+
+input[type=submit] {
+  width: 10em;  
+  height: 2em;
+  border-radius: 5px;
+}
+
+.text_format {
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.05em;
+}
+  
+
+  
+
+  
+
+  
+

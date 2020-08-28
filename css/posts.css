@@ -1,4 +1,5 @@
 @import 'common.css';
+@import 'social_media.css';
 
 .container {
   display: grid;
@@ -7,12 +8,12 @@
   grid-template-areas: 
   "hd hd hd hd hd hd hd hd"
   "mn mn mn mn mn mn mn mn"
-  "main main main main main main main main"
+  "main main main sd sd sd sd sd"
   "ft ft ft ft ft ft ft ft";
   gap: 1px;
 }
 
-.contact-box {
+.post-box {
   padding-left: 150px;
   padding-right: 150px;
   font-size: 1.25em;
@@ -25,7 +26,7 @@
   font-size: 2em;
   font-weight: bold;
   text-align: center;
-}
+}  
 
 .menu {
   grid-area: mn;
@@ -33,6 +34,16 @@
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
+}
+
+.content {
+  grid-area:main;
+  background: #efe2ba;
+}
+
+.sidebar {
+  grid-area: sd;
+  background: #c5cbe3;
 }
 
 .footer {
@@ -43,17 +54,25 @@
   text-align: center;
 }
 
-.sidebar {
-  grid-area: sd;
-  background: #c5cbe3;
+.medium_img {
+  display: block;
+  width: 200px;
+  border-radius: 5px 5px 0 0;
 }
 
-.content {
-  grid-area: main;
-  background: #efe2ba;
-  text-align: center;
+.bio {
+  width: 50%;
+  font-size: 0.9em;
+  color: #505052;
 }
 
-.message_text {
-  height: 60px;
+.writtenby {
+  font-size: 0.9em;
+  color: #505052;
 }
+
+.subtitle {
+  font-size: 1.1em;
+  color: #505052;
+}
+
