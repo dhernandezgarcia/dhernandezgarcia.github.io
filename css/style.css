@@ -134,3 +134,15 @@
     color: white;
     font-weight: bold;
   }
+
+  .article {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.05em;
+  }
+
+  .center_text {
+    text-align: center;
+  }
+
