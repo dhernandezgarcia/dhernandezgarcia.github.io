@@ -4,10 +4,10 @@
   display: grid;
   grid-template-rows: 200px 60px 1fr 60px;
   grid-template-areas: 
-  "hd hd hd hd hd hd hd hd"
-  "mn mn mn mn mn mn mn mn"
-  "main main main main main main main main"
-  "ft ft ft ft ft ft ft ft";
+  "hd"
+  "mn"
+  "main"
+  "ft";
   gap: 1px;
 }
 

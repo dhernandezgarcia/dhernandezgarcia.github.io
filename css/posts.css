@@ -3,13 +3,12 @@
 
 .container {
   display: grid;
-  grid-template-columns: 300px 100px;
   grid-template-rows: 200px 60px 1fr 60px;
   grid-template-areas: 
-  "hd hd hd hd hd hd hd hd"
-  "mn mn mn mn mn mn mn mn"
-  "main main main sd sd sd sd sd"
-  "ft ft ft ft ft ft ft ft";
+  "hd"
+  "mn"
+  "main"
+  "ft";
   gap: 1px;
 }
 
@@ -39,11 +38,6 @@
 .content {
   grid-area:main;
   background: #efe2ba;
-}
-
-.sidebar {
-  grid-area: sd;
-  background: #c5cbe3;
 }
 
 .footer {
