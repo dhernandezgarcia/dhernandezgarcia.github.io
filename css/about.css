@@ -1,0 +1,88 @@
+@import 'common.css';
+@import 'social_media.css';
+
+.container {
+  display: grid;
+  grid-template-rows: 200px 60px 1fr 60px;
+  grid-template-areas: 
+  "hd"
+  "mn"
+  "main"
+  "ft";
+  gap: 1px;
+}
+
+/* If screen is wide enough */
+@media(min-width: 1200px) {
+  .header {
+    grid-area: hd;
+    background: #4056a1;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .post-box {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 1.25em;
+  }
+}
+
+.post-box {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.header {
+  grid-area: hd;
+  background: #4056a1;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}  
+
+.menu {
+  grid-area: mn;
+  background: #c5cbe3;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.content {
+  grid-area:main;
+  background: #efe2ba;
+}
+
+.footer {
+  grid-area: ft;
+  background: #c5cbe3;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.medium_img {
+  display: block;
+  width: 200px;
+  border-radius: 5px 5px 0 0;
+}
+
+.bio {
+  width: 50%;
+  font-size: 0.9em;
+  color: #505052;
+}
+
+.writtenby {
+  font-size: 0.9em;
+  color: #505052;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  color: #505052;
+}
+
