@@ -2,7 +2,7 @@
 
 .container {
   display: grid;
-  grid-template-rows: 200px 60px 1fr 60px;
+  grid-template-rows: 100px 60px 1fr 60px;
   grid-template-areas: 
   "hd"
   "mn"
@@ -11,19 +11,57 @@
   gap: 1px;
 }
 
-.contact-box {
-  padding-left: 150px;
-  padding-right: 150px;
-  font-size: 1.25em;
+/* If screen is wide enough */
+@media(min-width: 1200px) {
+  .container {
+    display: grid;
+    grid-template-rows: 200px 60px 1fr 60px;
+    grid-template-areas: 
+    "hd"
+    "mn"
+    "main"
+    "ft";
+    gap: 1px;
+  }
+
+  .header {
+    grid-area: hd;
+    background: #4056a1;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .contact-box {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 1.25em;
+  }
+
+  .container {
+    display: grid;
+    grid-template-rows: 200px 60px 1fr 60px;
+    grid-template-areas: 
+    "hd"
+    "mn"
+    "main"
+    "ft";
+    gap: 1px;
+  }
 }
 
 .header {
   grid-area: hd;
   background: #4056a1;
   color: white;
-  font-size: 2em;
   font-weight: bold;
   text-align: center;
+}
+
+.contact-box {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .menu {
