@@ -11,46 +11,6 @@
   gap: 1px;
 }
 
-/* If screen is wide enough */
-@media(min-width: 1200px) {
-  .container {
-    display: grid;
-    grid-template-rows: 200px 60px 1fr 60px;
-    grid-template-areas: 
-    "hd"
-    "mn"
-    "main"
-    "ft";
-    gap: 1px;
-  }
-
-  .header {
-    grid-area: hd;
-    background: #4056a1;
-    color: white;
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .contact-box {
-    padding-left: 150px;
-    padding-right: 150px;
-    font-size: 1.25em;
-  }
-
-  .container {
-    display: grid;
-    grid-template-rows: 200px 60px 1fr 60px;
-    grid-template-areas: 
-    "hd"
-    "mn"
-    "main"
-    "ft";
-    gap: 1px;
-  }
-}
-
 .header {
   grid-area: hd;
   background: #4056a1;
@@ -93,4 +53,33 @@
 
 .message_text {
   height: 60px;
+}
+
+/* If screen is wide enough */
+@media(min-width: 1200px) {
+  .container {
+    display: grid;
+    grid-template-rows: 200px 60px 1fr 60px;
+    grid-template-areas: 
+    "hd"
+    "mn"
+    "main"
+    "ft";
+    gap: 1px;
+  }
+
+  .header {
+    grid-area: hd;
+    background: #4056a1;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .contact-box {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 1.25em;
+  }
 }
