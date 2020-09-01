@@ -2,7 +2,7 @@
 
 .container {
   display: grid;
-  grid-template-rows: 200px 60px 2fr 0.75fr 1fr 0.75fr 60px;
+  grid-template-rows: 200px 60px 1fr 0.75fr 0.75fr 0.5fr 60px;
   grid-template-areas: 
   "hd"
   "mn"
@@ -28,6 +28,25 @@
     "ft ft ft ft ft ft ft ft";
     gap: 1px;
   }
+
+  .header {
+    grid-area: hd;
+    background: #4056a1;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .post-box {
+    border-radius: 5px;
+    background: #d79922;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+  }
 }
 
 .post-box {
@@ -35,7 +54,7 @@
   background: #d79922;
   padding: 5px;
   margin: 5px;
-  width: 200px;
+  width: 100%;
   text-align: center;
   font-weight: bold;
 }
@@ -44,7 +63,6 @@
   grid-area: hd;
   background: #4056a1;
   color: white;
-  font-size: 2em;
   font-weight: bold;
   text-align: center;
 }
